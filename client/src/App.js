@@ -16,7 +16,7 @@ import Home from './pages/Home';
 
 // establish a link to the GraphQL server as /graphql
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001/graphql',
+  uri: '/graphql',
 });
 
 // Create the connection the API endpoint.
