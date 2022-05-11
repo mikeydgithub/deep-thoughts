@@ -23,5 +23,8 @@
   "homepage": "https://github.com/mikeydgithub/deep-thoughts#readme",
   "devDependencies": {
     "concurrently": "^7.1.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.3.0"
   }
 }
