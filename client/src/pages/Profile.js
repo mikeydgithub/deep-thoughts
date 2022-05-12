@@ -9,7 +9,7 @@ import { useQuery } from '@apollo/client';
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
 
 const Profile = (props) => {
-  const { username: userParam } = useParams();
+  const { "*": userParam } = useParams();
 
   const { loading, data } = useQuery(userParam ? QUERY_USER: QUERY_ME, {
     variables: { username: userParam },

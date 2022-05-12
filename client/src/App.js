@@ -69,7 +69,7 @@ function App() {
               />
               <Route
               // the ? in username is meant to be optional
-                path='/profile/:username?'
+                path='/profile/*'
                 element={<Profile />}
               />
               <Route 
